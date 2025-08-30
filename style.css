@@ -1,0 +1,130 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffd700;
+  letter-spacing: 1px;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  color: #eee;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #ffdd57;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Skills */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background: #ffdd57;
+  color: #1f1c2c;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.skill-tags span:hover {
+  transform: scale(1.1);
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1 1 280px;
+  background: #2d2a4a;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  border-left: 5px solid #ffdd57;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact ul {
+  list-style: none;
+}
+
+.contact ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Query Form */
+.query form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.query input,
+.query textarea {
+  paddin
